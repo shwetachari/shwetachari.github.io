@@ -7,7 +7,6 @@ import './tech-icons/dist/icons.css';
 import './main.css';
 import $ from '../node_modules/jquery/dist/jquery.js';
 window.$ = window.jQuery = $;
-// require('../node_modules/devicon/devicon.min.css');
 require('../node_modules/bootstrap/dist/css/bootstrap.css');
 require('../node_modules/bootstrap/dist/css/bootstrap-theme.css');
 require('../node_modules/bootstrap/dist/js/bootstrap.js');

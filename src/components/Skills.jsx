@@ -12,7 +12,6 @@ class Skills extends React.Component {
         ['MVC', 'icon-tech-mvc'],
         ['Node.js', 'icon-tech-nodejs'],
         ['Express.js', 'icon-tech-expressjs'],
-        ['Sequelize', 'devicon-sequelize-plain'],
         ['PostgreSQL', 'icon-tech-postgres'],
         ['mySQL', 'icon-tech-mysql'],
         ['Redis', 'icon-tech-redis'],
