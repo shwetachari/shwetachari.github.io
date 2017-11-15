@@ -7,7 +7,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="main-section">
+      <div className="main-section col-xs-12">
         Projects Section goes here
       </div>
     );
