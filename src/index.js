@@ -11,5 +11,5 @@ require('../node_modules/bootstrap/dist/css/bootstrap.css');
 require('../node_modules/bootstrap/dist/css/bootstrap-theme.css');
 require('../node_modules/bootstrap/dist/js/bootstrap.js');
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 registerServiceWorker();

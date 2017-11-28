@@ -39,7 +39,6 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="main-section col-xs-12">
-        List of Skills Go Here
         <ul className="skillsList">
           { this.state.icons.map((icon, i) => (
             <li key={i} className="text-center col-sm-2 col-xs-3">
