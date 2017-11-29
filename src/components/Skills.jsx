@@ -39,9 +39,9 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="main-section col-xs-12">
-        <ul className="skillsList">
+        <ul className="skillsList col-xs-12">
           { this.state.icons.map((icon, i) => (
-            <li key={i} className="text-center col-sm-2 col-xs-3">
+            <li key={i} className="skill text-center col-sm-2 col-xs-3">
               <i className={`skillIcon ${icon[1]} col-xs-12 text-center`}></i>
               <div className="skillName col-xs-12 text-center">{icon[0]}</div>
             </li>
