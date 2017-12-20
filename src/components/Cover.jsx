@@ -1,10 +1,19 @@
 import React from 'react';
 
 class Cover extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      bgUrl: 'images/jumbotron.png',
+    };
+  }
+
   render() {
     return (
-      <div className="main-section col-xs-12">
-        <h1 className="col-xs-12 text-center">Title</h1>
+      <div className="cover jumbotron text-center main-section col-xs-12 no-gutter">
+        <div className="jumbotron text-center col-xs-12">
+          <h1>Title</h1>
+        </div>
       </div>
     );
   }

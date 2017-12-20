@@ -31,7 +31,6 @@ class Skills extends React.Component {
         ['Git', 'icon-tech-git'],
         ['Bash', 'icon-tech-bash'],
         ['Illustrator', 'icon-tech-illustrator'],
-        ['Photoshop', 'icon-tech-photoshop']
       ],
     };
   }
@@ -39,11 +38,14 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="main-section col-xs-12">
-        <ul className="skillsList col-xs-12">
+        <h2 className="text-center">Skills</h2>
+        <ul className="skillsList text-center col-md-10 col-md-offset-1 col-xs-12">
           { this.state.icons.map((icon, i) => (
-            <li key={i} className="skill text-center col-sm-2 col-xs-3">
-              <i className={`skillIcon ${icon[1]} col-xs-12 text-center`}></i>
-              <div className="skillName col-xs-12 text-center">{icon[0]}</div>
+            <li key={i} className="skill text-center">
+              <div className="skillContent">
+                <i className={`skillIcon ${icon[1]}`}></i>
+                <div className="skillName">{icon[0]}</div>
+              </div>
             </li>
           )) }
         </ul>
